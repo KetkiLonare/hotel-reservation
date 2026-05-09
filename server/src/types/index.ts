@@ -34,6 +34,7 @@ export interface RoomsResponse {
 export interface BookingResponse {
   bookedRooms: Room[];
   travelTime: number;
+  booking: Booking;
 }
 
 export interface BookingsResponse {
